@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coração Seguro - Verificar Perfil</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app-shell" id="pagina-verificar">
+    <div class="app-conteudo">
+
+      <header>
+        <h1>Amigos</h1>
+        <hr class="divisor">
+        <h2>Possíveis conexões</h2>
+        <p class="texto-suave">
+          Pessoas que você demonstrou interesse.
+        </p>
+      </header>
+
+      <form id="formulario-perfil">
+        <div class="opcoes-perfil">
+
+          <label class="cartao opcao-perfil" for="perfil-favor-financeiro">
+            <img src="img/elon.png" alt="">
+            <span>Elon Musk ❌</span>
+          </label>
+
+          <label class="cartao opcao-perfil" for="perfil-recusa-video">
+            <img src="img/franguete.png" alt="">
+            <span>João Frango ✅</span>
+            <button><a href="conversa.html">Conversar</a></button>
+          </label>
+
+          <label class="cartao opcao-perfil" for="perfil-amor-rapido">
+            <img src="img/trump2.png" alt="">
+            <span>Donald Trump ❌</span>
+          </label>
+
+          <label class="cartao opcao-perfil" for="perfil-evita-encontro">
+            <img src="img/putin.png" alt="">
+            <span>Vladimir Putin ❌</span>
+          </label>
+
+        </div>
+
+        <button class="botao-primario" id="botao-verificar-sinais" type="submit">
+          🩷 Iniciar Conversa
+        </button>
+
+        <div class="resultado-perfil" id="resultado-perfil" aria-live="polite"></div>
+
+        <p class="splash-rodape">
+          Lembre-se: O amor da sua vida pode estar a um click.
+        </p>
+      </form>
+    </div>
+
+    
+<nav class="navegacao-inferior" aria-label="Navegação principal">
+  <a class="link-navegacao " href="index.html" id="nav-inicio">
+    <span class="icone-nav">⌂</span>
+    <span>Início</span>
+  </a>
+  <a class="link-navegacao " href="analise.html" id="nav-analise">
+    <span class="icone-nav">⌕</span>
+    <span>Análise</span>
+  </a>
+  <a class="link-navegacao ativo" href="verificar.html" id="nav-verificar">
+    <span class="icone-nav">♢</span>
+    <span>Verificar</span>
+  </a>
+  <a class="link-navegacao " href="ajuda.html" id="nav-ajuda">
+    <span class="icone-nav">ⓘ</span>
+    <span>Ajuda</span>
+  </a>
+</nav>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

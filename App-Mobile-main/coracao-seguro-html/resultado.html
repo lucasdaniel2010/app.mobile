@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coração Seguro - Resultado</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app-shell" id="pagina-resultado">
+    <div class="app-conteudo">
+
+      <header class="topo-pagina">
+        <button class="botao-voltar" id="botao-voltar-resultado" data-acao="voltar" type="button" aria-label="Voltar">
+          ←
+        </button>
+        <h1>Resultado da Análise</h1>
+      </header>
+
+      <hr class="divisor">
+
+      <section class="resultado-box" id="resultado-principal">
+        <div class="resultado-status">● Sinal de alerta identificado</div>
+        <h2>Alta Suspeita de Golpe</h2>
+        <p class="texto-suave">
+          Atenção: não é uma acusação definitiva, mas a mensagem contém padrões
+          frequentemente associados a golpes de relacionamento.
+        </p>
+      </section>
+
+      <section aria-labelledby="titulo-sinais">
+        <h2 id="titulo-sinais">Sinais que chamaram atenção:</h2>
+
+        <div class="lista-sinais">
+          <article class="sinal" id="sinal-dinheiro">
+            <span class="icone-circular">$</span>
+            <div>
+              <strong>Pedido de dinheiro ou ajuda financeira</strong>
+              <span class="texto-suave">Ele citou problemas urgentes com pagamentos e valores.</span>
+            </div>
+          </article>
+
+          <article class="sinal" id="sinal-urgencia">
+            <span class="icone-circular">◷</span>
+            <div>
+              <strong>Forte senso de urgência</strong>
+              <span class="texto-suave">Ele pressiona para que a ação seja tomada rapidamente.</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="recomendacoes" id="bloco-recomendacoes">
+        <h2>Atitudes recomendadas:</h2>
+        <ul>
+          <li>Não transfira nenhum valor financeiro.</li>
+          <li>Evite tomar decisões sob pressão emocional.</li>
+          <li>Converse com um familiar ou amiga sobre isso.</li>
+        </ul>
+      </section>
+
+      <a class="botao-secundario" id="botao-falar-confianca" href="tel:+550000000000" style="display:block;text-align:center;text-decoration:none;">
+        ☎ Falar com Confiança
+      </a>
+    </div>
+
+    
+<nav class="navegacao-inferior" aria-label="Navegação principal">
+  <a class="link-navegacao " href="index.html" id="nav-inicio">
+    <span class="icone-nav">⌂</span>
+    <span>Início</span>
+  </a>
+  <a class="link-navegacao ativo" href="analise.html" id="nav-analise">
+    <span class="icone-nav">⌕</span>
+    <span>Análise</span>
+  </a>
+  <a class="link-navegacao " href="verificar.html" id="nav-verificar">
+    <span class="icone-nav">♢</span>
+    <span>Verificar</span>
+  </a>
+  <a class="link-navegacao " href="ajuda.html" id="nav-ajuda">
+    <span class="icone-nav">ⓘ</span>
+    <span>Ajuda</span>
+  </a>
+</nav>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coração Seguro - Análise</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="app-shell" id="pagina-analise">
+    <div class="app-conteudo">
+
+      <header>
+        <h1>Procurar Conexões</h1>
+        <hr class="divisor">
+        <h2>Pessoas próximas de você</h2>
+        <p class="texto-suave">
+          Copie a mensagem dele pelo WhatsApp (ou outro aplicativo) e cole no espaço abaixo.
+          Vamos analisar palavras-chave e padrões comuns em golpes.
+        </p>
+      </header>
+
+      <form id="formulario-analise">
+        <div class="cartao area-campo">
+          <label for="mensagem-para-analisar">✎ Cole a mensagem dele aqui...</label>
+          <textarea
+            class="campo-mensagem"
+            id="mensagem-para-analisar"
+            name="mensagem"
+            placeholder="Ex.: Meu amor, o navio precisa de um pagamento urgente..."
+            required
+          ></textarea>
+        </div>
+
+        <div class="aviso-privacidade" id="aviso-privacidade">
+          🔒 Esta análise é totalmente confidencial e segura. Ninguém saberá.
+        </div>
+
+        <button class="botao-primario" id="botao-analisar-mensagem" type="submit">
+          ⌕ Analisar Mensagem
+        </button>
+
+        <p class="mensagem-feedback" id="feedback-analise" aria-live="polite"></p>
+      </form>
+    </div>
+
+    
+<nav class="navegacao-inferior" aria-label="Navegação principal">
+  <a class="link-navegacao " href="index.html" id="nav-inicio">
+    <span class="icone-nav">⌂</span>
+    <span>Início</span>
+  </a>
+  <a class="link-navegacao ativo" href="analise.html" id="nav-analise">
+    <span class="icone-nav">⌕</span>
+    <span>Análise</span>
+  </a>
+  <a class="link-navegacao " href="verificar.html" id="nav-verificar">
+    <span class="icone-nav">♢</span>
+    <span>Verificar</span>
+  </a>
+  <a class="link-navegacao " href="ajuda.html" id="nav-ajuda">
+    <span class="icone-nav">ⓘ</span>
+    <span>Ajuda</span>
+  </a>
+</nav>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
